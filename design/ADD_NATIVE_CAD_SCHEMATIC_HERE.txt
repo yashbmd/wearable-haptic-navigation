@@ -1,0 +1,1 @@
+Commit native actual CAD (.STEP or project files), EDA (.kicad_sch), mechanical dimensions, and circuit drawing if you have them.

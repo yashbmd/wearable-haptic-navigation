@@ -1,0 +1,11 @@
+flowchart LR
+  A[Camera: ESP32-CAM candidate or USB webcam] --> B[Video host: laptop prototype]
+  B --> C[YOLOv8n object tracking]
+  C --> D[Temporal risk and lane arbitration]
+  E[Optional MPU6050 / calibrated sonar] -.-> D
+  D --> F[Serial H seq L C R]
+  F --> G[Arduino UNO R4 Minima]
+  G --> H[Three MOSFET motor drivers]
+  H --> I[Left / Centre / Right vibrotactile band]
+  I --> J[Human decides how to move]
+  J -->|Changed scene as feedback| A

@@ -1,0 +1,12 @@
+Component,Part or rating,Qty,Procurement status,Unit price INR,Subtotal INR,Price status,Source / verification
+Arduino UNO R4 Minima,Official UNO EK R4 Minima ABX00080_IN,1,Team-reported available,999,999,Retail listing not receipt,https://robu.in/product-category/classic-family/
+Ultrasonic sensor,HC-SR04 generic 5V,3,Team-reported available,79,237,Retail listing not receipt,https://robu.in/product-category/generic-ultrasonic-sensors/
+Coin ERM motors,8 mm 3.4mm coin motor - check rated voltage and draw,3,Team-reported available,64,192,Retail listing comparable part only,https://robu.in/product-category/vibration-motor/
+MOSFET,N-channel AO3400 candidate; verify gate RDSon and footprint,3,Team-reported MOSFETs of unspecified part,3.08,9.24,Retail listing comparable part only,https://robu.in/product/ao3400-hxy-mosfet-30v-5-8a-30m%CF%8910v5-8a-1-4w-700mv-1-n-channel-sot-23-mosfets-rohs/
+MPU6050,I2C breakout 3.3V domain,1,Team-reported available,,,Unquoted / variant verification pending,
+USB power bank,EnergyShroom PB400 Pro 5V,1,Team-reported available,,,Receipt / max output / dimensions pending,
+ESP32-CAM camera,OV2640 module with verified field of view,1,Proposed; physical board unconfirmed,,,Exact module and quote pending,
+Motor protection,Flyback diodes 3 + 220 ohm gate R 3 + 10k pulldown R 3,1,set of team-reported parts,,,Variant/current testing pending,
+Motor decoupling,100nF ceramic x3 plus bulk 100-470uF,1,Not confirmed procured,,,Component ratings and quote pending,
+Textile mount,Velcro strap plus clips and cable relief,1,Proposed,,,Vendor and actual bill pending,
+Host compute,Laptop already owned (excluded from standalone wearable BOM),1,Existing experiment compute platform,,,Exclusion must be disclosed,

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="730" viewBox="0 0 1400 730">
+<rect width="1400" height="730" fill="#f7f5f0"/>
+<text x="62" y="66" font-family="Arial" font-size="29" font-weight="bold" fill="#15333a">UNO R4 → one protected ERM motor channel (repeat three times)</text>
+<text x="62" y="111" font-family="Arial" font-size="17" fill="#587078">Signal pins: D3, D5, D6. Supply GND must be common. This is a concept wiring diagram, not EDA-signed manufacturing schematic.</text>
+<rect x="67" y="290" rx="19" width="220" height="118" fill="#d5eae4" stroke="#0c7472" stroke-width="3"/>
+<text x="96" y="335" font-family="Arial" font-size="27" fill="#113138" font-weight="bold">Arduino UNO R4</text>
+<text x="103" y="380" font-family="Arial" font-size="20" fill="#235f5e">D3 / D5 / D6</text>
+<rect x="376" y="320" rx="12" width="146" height="53" fill="#f7e4d4" stroke="#de844f" stroke-width="2"/>
+<text x="411" y="353" font-family="Arial" font-size="24" fill="#703a23">220 Ω</text>
+<path d="M287 348 H376 M522 348 H715 V476 H822" fill="none" stroke="#0b817d" stroke-width="5"/>
+<text x="584" y="320" font-family="Arial" font-size="18" fill="#0b817d">gate control</text>
+<rect x="822" y="444" rx="16" width="245" height="97" fill="#123039"/>
+<text x="856" y="483" font-family="Arial" font-size="23" fill="#ffffff" font-weight="bold">Logic-level</text><text x="856" y="517" font-family="Arial" font-size="24" fill="#ffffff" font-weight="bold">N-MOSFET</text>
+<path d="M945 444 V383 H945 V330" fill="none" stroke="#162e35" stroke-width="5"/>
+<rect x="855" y="237" rx="13" width="183" height="93" fill="#e1ebe7" stroke="#557674" stroke-width="3"/>
+<text x="890" y="292" font-family="Arial" font-size="27" fill="#16363c">ERM motor</text>
+<path d="M945 237 V176 H1110 V247" stroke="#e07845" stroke-width="5" fill="none"/>
+<text x="818" y="146" font-family="Arial" font-size="28" fill="#b65d32" font-weight="bold">Protected motor +5 V supply</text>
+<path d="M1110 247 V378 H945" stroke="#152f36" stroke-width="4" fill="none"/>
+<path d="M1088 267 L1132 267 L1110 306 Z" fill="#ffffff" stroke="#152f36" stroke-width="3"/>
+<path d="M1088 262 H1132" stroke="#152f36" stroke-width="4"/>
+<text x="1160" y="296" font-family="Arial" font-size="22" fill="#152f36">Flyback diode</text><text x="1160" y="328" font-family="Arial" font-size="19" fill="#d47944">stripe to +5 V</text>
+<path d="M945 541 V611" stroke="#152f36" stroke-width="5"/><path d="M903 611 H987 M913 621 H977 M926 631 H965" stroke="#152f36" stroke-width="3"/>
+<text x="998" y="627" font-family="Arial" font-size="23" fill="#152f36">common GND</text>
+<path d="M664 348 V447" stroke="#df894c" stroke-width="4"/>
+<rect x="600" y="447" rx="9" width="128" height="67" fill="#f7e4d4" stroke="#df894c" stroke-width="2"/>
+<text x="630" y="489" font-family="Arial" font-size="24" fill="#5e452f">10 kΩ</text>
+<path d="M664 514 V608" stroke="#1b3840" stroke-width="4"/><path d="M625 608 H703 M635 618 H692 M647 628 H681" stroke="#152f36" stroke-width="3"/>
+<text x="580" y="678" font-family="Arial" font-size="19" fill="#52686f">Gate pulldown keeps motor OFF at reset</text>
+<text x="62" y="692" font-family="Arial" font-size="18" fill="#52686f">Note: verify motor rated voltage/current, MOSFET RDS(on) at VGS=4.5 V, wiring polarity, diode current rating and motor supply decoupling.</text>
+</svg>
